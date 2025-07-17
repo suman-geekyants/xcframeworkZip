@@ -1,0 +1,6 @@
+framework module UniversalTestSDK {
+  umbrella header "UniversalTestSDK.h"
+  export *
+
+  module * { export * }
+}

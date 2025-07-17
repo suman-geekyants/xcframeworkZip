@@ -1,0 +1,299 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "UniversalTestSDK",
+    "printedName": "UniversalTestSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "UniversalTestSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TestSDK",
+        "printedName": "TestSDK",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestSDK",
+                "printedName": "UniversalTestSDK.TestSDK",
+                "usr": "c:@M@UniversalTestSDK@objc(cs)TestSDK"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@UniversalTestSDK@objc(cs)TestSDK(cpy)shared",
+            "mangledName": "$s16UniversalTestSDK0bC0C6sharedACvpZ",
+            "moduleName": "UniversalTestSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TestSDK",
+                    "printedName": "UniversalTestSDK.TestSDK",
+                    "usr": "c:@M@UniversalTestSDK@objc(cs)TestSDK"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@UniversalTestSDK@objc(cs)TestSDK(cm)shared",
+                "mangledName": "$s16UniversalTestSDK0bC0C6sharedACvgZ",
+                "moduleName": "UniversalTestSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "printGreeting",
+            "printedName": "printGreeting()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UniversalTestSDK@objc(cs)TestSDK(im)printGreeting",
+            "mangledName": "$s16UniversalTestSDK0bC0C13printGreetingyyF",
+            "moduleName": "UniversalTestSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printCurrentDateTime",
+            "printedName": "printCurrentDateTime()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UniversalTestSDK@objc(cs)TestSDK(im)printCurrentDateTime",
+            "mangledName": "$s16UniversalTestSDK0bC0C20printCurrentDateTimeyyF",
+            "moduleName": "UniversalTestSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printMessage",
+            "printedName": "printMessage(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UniversalTestSDK@objc(cs)TestSDK(im)printMessage:",
+            "mangledName": "$s16UniversalTestSDK0bC0C12printMessageyySSF",
+            "moduleName": "UniversalTestSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getSampleString",
+            "printedName": "getSampleString()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UniversalTestSDK@objc(cs)TestSDK(im)getSampleString",
+            "mangledName": "$s16UniversalTestSDK0bC0C15getSampleStringSSyF",
+            "moduleName": "UniversalTestSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPlatformInfo",
+            "printedName": "getPlatformInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UniversalTestSDK@objc(cs)TestSDK(im)getPlatformInfo",
+            "mangledName": "$s16UniversalTestSDK0bC0C15getPlatformInfoSSyF",
+            "moduleName": "UniversalTestSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printPlatformInfo",
+            "printedName": "printPlatformInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UniversalTestSDK@objc(cs)TestSDK(im)printPlatformInfo",
+            "mangledName": "$s16UniversalTestSDK0bC0C17printPlatformInfoyyF",
+            "moduleName": "UniversalTestSDK",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@UniversalTestSDK@objc(cs)TestSDK",
+        "mangledName": "$s16UniversalTestSDK0bC0C",
+        "moduleName": "UniversalTestSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

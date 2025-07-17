@@ -1,0 +1,19 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-macos15.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name UniversalTestSDK
+import Foundation
+import Swift
+@_exported import UniversalTestSDK
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class TestSDK : ObjectiveC.NSObject {
+  @objc public static let shared: UniversalTestSDK.TestSDK
+  @objc public func printGreeting()
+  @objc public func printCurrentDateTime()
+  @objc public func printMessage(_ message: Swift.String)
+  @objc public func getSampleString() -> Swift.String
+  @objc public func getPlatformInfo() -> Swift.String
+  @objc public func printPlatformInfo()
+  @objc deinit
+}
